@@ -26,7 +26,7 @@ export const TitleBox = styled.h1`
   font-size: 3rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
-  color: #272727;
+  color: #ed0707;
   @media(max-width: 1100px){
     font-size: 2rem;
   }
@@ -40,7 +40,7 @@ export const Text = styled.p`
   font-size: 1.3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  color: #797979;
+  color: #000;
   width: 30vw;
   @media(max-width: 1100px){
     font-size: 1rem;
@@ -66,7 +66,7 @@ export const Button = styled.button`
   transition: 0.7s;
   &:hover{
     cursor: pointer;
-    color: grey;
+    color: #ed0707;
   }
   @media(max-width: 1100px){
     font-size: 1rem;
@@ -78,10 +78,10 @@ export const Link = styled.a`
   margin-left: 50px;
   font-size: 1.3rem;
   font-weight: 500;
-  color: #272727;
+  color: #000;
   transition: 0.7s;
   &:hover{
-    color: grey;
+    color: #ed0707;
   }
   @media(max-width: 1100px){
     margin-left: 30px;
@@ -158,7 +158,7 @@ export const TitleBoxTwo = styled.h2`
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #FFF;
+  color: #ed0707;
   @media(max-width: 1440px){
     font-size: 1.4rem;
   }
@@ -168,7 +168,7 @@ export const TextTwo = styled.p`
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  color: #FFF;
+  color: #fff;
   @media(max-width: 900px){
     width: 100%;
     text-align: center; 

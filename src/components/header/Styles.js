@@ -3,7 +3,7 @@ import LogoImg from '../../img/logo.png'
 
 export const HeaderSection = styled.section`
   height: 80px;
-
+  color:#fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,7 +13,7 @@ export const Left = styled.section`
   align-items: center;
   p{
     margin-left: 55px;
-    color: #272727;
+    color: #ed0707;
     font-weight: 600;
     font-size: 18px;
   }
@@ -51,7 +51,8 @@ export const Navegation = styled.nav`
     &:after{
     content: "";
     position: absolute;
-    background-color: #272727;
+    background-color: #ed0707;
+    
     height: 3px;
     width: 0%;
     left: 0;
@@ -64,19 +65,10 @@ export const Navegation = styled.nav`
   }
   a{
     text-decoration: none;
-    color: #272727;
+    color: #000;
   }
 `
-export const Icons = styled.div`
-  margin-left: 30px;
-  @media(max-width: 768px){
-    display: none;
-  }
-  img{
-    margin-left: 18px;
-    cursor: pointer;
-  }
-`
+
 export const MenuHamburguer = styled.div`
   position: absolute;
   right: 5px;

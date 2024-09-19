@@ -13,7 +13,7 @@ export const TitleBox = styled.h1`
   font-size: 2.5rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
-  color: #272727;
+  color: #ed0707;
   @media(max-width: 1100px){
     font-size: 2rem;
   }
@@ -27,7 +27,7 @@ export const TextBox = styled.p`
   font-size: 1.3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  color: #797979;
+  color: #000;
   @media(max-width: 1100px){
     font-size: 1rem;
     width: 70vw;

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Menu = styled.section`
-  background-color: #272727;
+  background-color: #fff;
   position: absolute;
   right: 0;
   top: 0;

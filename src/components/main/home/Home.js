@@ -10,8 +10,8 @@ export default function Home(){
     <>
       <S.HomeOne id="home">
         <S.Left>
-          <S.TitleBox>Ajudar você a encontrar o melhor conforto, é nossa prioridade.</S.TitleBox>
-          <S.Text>Encontre uma variedade de propriedades que combinam com você. Esqueça todas as dificuldades em encontrar uma residência</S.Text>
+          <S.TitleBox>Ajudamos você a encontrar o modelo ideal de site para seu negócio.</S.TitleBox>
+          <S.Text>Descubra uma seleção exclusiva de modelos que combinam perfeitamente com o seu estilo! Diga adeus à complicação de encontrar o site ideal e aproveite uma experiência fácil e descomplicada.</S.Text>
           <S.DivButtons>
             <S.Button>Entre em contato</S.Button>
             <S.Link href="#">Mais sobre nós</S.Link>
@@ -26,7 +26,7 @@ export default function Home(){
         </S.BackgroundImg>
         <S.Right>
           <S.TitleBoxTwo>Design Minimalista</S.TitleBoxTwo>
-          <S.TextTwo>Móveis apenas essenciais e com design moderno, além de revestimentos bonitos e em cores neutras para manter a casa sempre com um estilo clean e suave.</S.TextTwo>
+          <S.TextTwo>Sites clean e modernos, focados no essencial. Com um layout elegante e cores neutras, criamos páginas que transmitem profissionalismo e sofisticação. Transforme a presença online do seu negócio com um design minimalista e impactante!</S.TextTwo>
         </S.Right>
       </S.HomeTwo>
     </>

@@ -10,8 +10,8 @@ export default function Gallery(){
   return(
     <S.GallerySection id="gallery">
       <S.Texts>
-        <S.TitleBox>Galeria</S.TitleBox>
-        <S.TextBox>Se você está entediado com a aparência da decoração de interiores da casa comuns, trabalhamos com designs diferentes e inovadores.</S.TextBox>
+        <S.TitleBox>MODELOS</S.TitleBox>
+        <S.TextBox>Cansado de sites comuns? Descubra designs únicos e inovadores que destacam sua marca no mundo digital. Explore nosso portfólio agora e inspire-se com modelos que transformam qualquer negócio!"</S.TextBox>
       </S.Texts>
       <S.GalleryImg>
         <S.ImageGallery src={HouseGallery1} alt="Foto de uma casa da galeria"/>
