@@ -1,27 +1,34 @@
-import styled from 'styled-components'
-import LogoImg from '../../img/logo.png'
+import styled from 'styled-components';
+import LogoImg from '../../img/logo.png';
+
 
 export const HeaderSection = styled.section`
   height: 80px;
-  color:#fff;
+  color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-`
+  justify-content: center;
+`;
+
 export const Left = styled.section`
   display: flex;
   align-items: center;
-  p{
+  flex-grow: 1;
+
+  p {
     margin-left: 55px;
-    color: #ed0707;
+    color: #fff;
     font-weight: 600;
     font-size: 18px;
   }
-`
+`;
+
 export const Right = styled.section`
   display: flex;
   align-items: center;
-`
+  flex-grow: 2;
+`;
+
 export const Logo = styled.div`
   background-image: url(${LogoImg});
   background-repeat: no-repeat;
@@ -33,41 +40,45 @@ export const Logo = styled.div`
   top: 20px;
   z-index: 1;
   cursor: pointer;
-`
+`;
+
 export const Navegation = styled.nav`
-  ul{
+  ul {
     display: flex;
     list-style: none;
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       display: none;
     }
   }
-  ul li{
+
+  ul li {
     cursor: pointer;
-    margin-left: 40px;
-    font-size: 18px;
+    margin-left: 80px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
-    &:after{
-    content: "";
-    position: absolute;
-    background-color: #ed0707;
-    
-    height: 3px;
-    width: 0%;
-    left: 0;
-    bottom: -3px;
-    transition: 0.5s;
-  }
-    &:hover:after{
+
+    &:after {
+      content: "";
+      position: absolute;
+      background-color: #ed0707;
+      height: 3px;
+      width: 0%;
+      left: 0;
+      bottom: -3px;
+      transition: 0.5s;
+    }
+
+    &:hover:after {
       width: 100%;
     }
   }
-  a{
+
+  a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
   }
-`
+`;
 
 export const MenuHamburguer = styled.div`
   position: absolute;
@@ -75,14 +86,17 @@ export const MenuHamburguer = styled.div`
   top: 5px;
   display: none;
   z-index: 2;
-  div{
+
+  div {
     border: solid #272727 0.5px;
     margin: 4px;
     background-color: #FFF;
     height: 4px;
     width: 40px;
   }
-  @media(max-width: 768px){
+
+  @media (max-width: 768px) {
     display: block;
   }
-`
+`;
+

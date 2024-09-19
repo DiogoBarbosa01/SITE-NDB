@@ -1,15 +1,17 @@
-import React, {useState} from 'react'
-import * as S from './Styles'
-import Menu from './menuMobile/Menu'
-export default function Header(){
+import React, { useState } from 'react';
+import * as S from './Styles';
+import Menu from './menuMobile/Menu';
+import { FaInstagram } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
 
-const [menu, setMenu] = useState(false)
+export default function Header() {
+  const [menu, setMenu] = useState(false);
 
-  return(
+  return (
     <>
       <S.HeaderSection id="top">
         <S.Left>
-          <a href="#top"><S.Logo></S.Logo></a>
+          <a href="#top"><S.Logo /></a>
           <p>NDB SITES</p>
         </S.Left>
 
@@ -21,18 +23,22 @@ const [menu, setMenu] = useState(false)
               <li><a href="#contact">Contato</a></li>
             </ul>
           </S.Navegation>
-
-          <S.MenuHamburguer onClick={()=>{setMenu(!menu)} }>
-            <div></div>
-            <div></div>
-            <div></div>
-          </S.MenuHamburguer>
-
-            {menu && <Menu/>}
-
-        
+          <a className="icon" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram style={{ position: 'absolute', right: '100px', top: '27px', fontSize: '28px', color: '#fff' }} />
+          </a>
+          <a className="icon" href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp style={{ position: 'absolute', right: '150px', top: '27px', fontSize: '28px', color: '#fff' }} />
+          </a>
         </S.Right>
+
+        <S.MenuHamburguer onClick={() => { setMenu(!menu); }}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </S.MenuHamburguer>
+
+        {menu && <Menu />}
       </S.HeaderSection>
     </>
-  )
+  );
 }

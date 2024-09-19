@@ -32,7 +32,7 @@ export const TextBox = styled.p`
   font-size: 1.3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  color: #000;
+  color: #fff;
   width: 50vw;
   @media(max-width: 1100px){
     font-size: 1rem;

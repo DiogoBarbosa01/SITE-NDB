@@ -26,7 +26,7 @@ export const TitleBox = styled.h1`
   font-size: 3rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
-  color: #ed0707;
+  color: red;
   @media(max-width: 1100px){
     font-size: 2rem;
   }
@@ -40,7 +40,7 @@ export const Text = styled.p`
   font-size: 1.3rem;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  color: #000;
+  color: #fff;
   width: 30vw;
   @media(max-width: 1100px){
     font-size: 1rem;
@@ -78,7 +78,7 @@ export const Link = styled.a`
   margin-left: 50px;
   font-size: 1.3rem;
   font-weight: 500;
-  color: #000;
+  color: #fff;
   transition: 0.7s;
   &:hover{
     color: #ed0707;
