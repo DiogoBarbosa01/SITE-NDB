@@ -19,11 +19,11 @@ export default function Header() {
           <S.Navegation>
             <ul>
               <li><a href="#home">Início</a></li>
-              <li><a href="#gallery">Galeria</a></li>
-              <li><a href="#contact">Contato</a></li>
+              <li><a href="#gallery">Arquétipo</a></li>
+              <li><a href="#contact">Orçamento</a></li>
             </ul>
           </S.Navegation>
-          <a className="icon" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a className="icon" href="https://www.instagram.com/ndbsites_mg" target="_blank" rel="noopener noreferrer">
             <FaInstagram style={{ position: 'absolute', right: '100px', top: '27px', fontSize: '28px', color: '#fff' }} />
           </a>
           <a className="icon" href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">

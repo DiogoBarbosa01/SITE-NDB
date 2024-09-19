@@ -10,7 +10,7 @@ export default function Gallery(){
   return(
     <S.GallerySection id="gallery">
       <S.Texts>
-        <S.TitleBox>MODELOS</S.TitleBox>
+        <S.TitleBox>ARQUÉTIPOS</S.TitleBox>
         <S.TextBox>Cansado de sites comuns? Descubra designs únicos e inovadores que destacam sua marca no mundo digital. Explore nosso portfólio agora e inspire-se com modelos que transformam qualquer negócio!"</S.TextBox>
       </S.Texts>
       <S.GalleryImg>
