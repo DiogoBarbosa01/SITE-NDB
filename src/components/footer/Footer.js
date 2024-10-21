@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <S.FooterSection>
       <a href="#top"><S.Logo /></a>
-      
+
       <S.Products>
         <S.TitleBox>CONTEÚDO</S.TitleBox>
         <S.List>
@@ -15,16 +15,17 @@ export default function Footer() {
           <S.Item>ORÇAMENTO</S.Item>
         </S.List>
       </S.Products>
-      
+
       <S.Networks>
         <S.TitleBox>Redes Sociais</S.TitleBox>
         <S.IconContainer>
-          <S.Icon href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <S.Icon href="https://www.instagram.com/ndbsites_mg" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </S.Icon>
-          <S.Icon href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+          <S.Icon href="https://api.whatsapp.com/send?phone=32984436440" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
           </S.Icon>
+
         </S.IconContainer>
       </S.Networks>
     </S.FooterSection>
