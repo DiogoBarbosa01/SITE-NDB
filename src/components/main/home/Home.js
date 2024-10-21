@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './Styles'
 
-import HouseHome1 from '../../../img/oiiii.jpg'
+import HouseHome1 from '../../../img/NDB.png'
 import HouseHome2 from '../../../img/house2.png'
 
 export default function Home(){
