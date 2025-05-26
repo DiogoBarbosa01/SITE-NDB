@@ -20,7 +20,7 @@ export const Menu = styled.section`
 
   	font-weight: 600;
   	font-family: 'Montserrat', sans-serif;
-  	color: #FFF;
+  	color: #fff;
   }
   @media(max-width: 768px){
     display: block;

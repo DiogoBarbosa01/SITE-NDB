@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import LogoImg from '../../img/Logo.png';
+
+
 
 
 export const HeaderSection = styled.section`
@@ -17,7 +18,7 @@ export const Left = styled.section`
 
   p {
     margin-left: 55px;
-    color: #fff;
+    color: #000; 
     font-weight: 600;
     font-size: 18px;
   }
@@ -30,10 +31,10 @@ export const Right = styled.section`
 `;
 
 export const Logo = styled.div`
-  background-image: url(${LogoImg});
+  background-image: url('/images/logo.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #272727;
+  background-color: #000; 
   width: 43px;
   height: 43px;
   position: fixed;
@@ -41,6 +42,7 @@ export const Logo = styled.div`
   z-index: 1;
   cursor: pointer;
 `;
+
 
 export const Navegation = styled.nav`
   ul {
@@ -61,7 +63,7 @@ export const Navegation = styled.nav`
     &:after {
       content: "";
       position: absolute;
-      background-color: #ed0707;
+      background-color:rgb(113, 0, 243);
       height: 3px;
       width: 0%;
       left: 0;
@@ -76,8 +78,7 @@ export const Navegation = styled.nav`
 
   a {
     text-decoration: none;
-    color: #fff;
-  }
+    color: #000;           
 `;
 
 export const MenuHamburguer = styled.div`

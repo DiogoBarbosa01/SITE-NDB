@@ -8,17 +8,17 @@ import * as S from './Styles'
 export default function Home() {
   const images = [
     {
-      src: 'https://thypix.com/wp-content/uploads/2018/05/Sommerlandschaft-Bilder-25.jpg',
-      alt: '',
+      src: '/images/paisagem.jpg', // imagem local
+      alt: 'Paisagem bonita',
       caption: 'Site moderno e responsivo para sua empresa',
     },
     {
-     img: <img src="../../img/Logo.png" />,
-     alt: 'Modelo de site 2',
-     caption: 'Design elegante com foco em conversão',
+      src: '/images/logo.png', // imagem local
+      alt: 'Logo da empresa',
+      caption: 'Design elegante com foco em conversão',
     },
     {
-      src: '/images/site3.jpg',
+      src: '/images/site3.jpg', // imagem local
       alt: 'Modelo de site 3',
       caption: 'Perfeito para comércios e varejo',
     },
