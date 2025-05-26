@@ -12,15 +12,15 @@ export default function Header() {
       <S.HeaderSection id="top">
         <S.Left>
           <a href="#top"><S.Logo /></a>
-          <p>NDB SITES</p>
+          <p>ASPHAULT</p>
         </S.Left>
 
         <S.Right>
           <S.Navegation>
             <ul>
               <li><a href="#home">Início</a></li>
-              <li><a href="#gallery">Arquétipo</a></li>
-              <li><a href="#contact">Orçamento</a></li>
+              <li><a href="#gallery">Produtos</a></li>
+              <li><a href="#contact">Coleções</a></li>
             </ul>
           </S.Navegation>
           <a className="icon" href="https://www.instagram.com/ndbsites_mg" target="_blank" rel="noopener noreferrer">

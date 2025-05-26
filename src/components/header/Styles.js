@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import LogoImg from '../../img/logo.png';
+import LogoImg from '../../img/Logo.png';
 
 
 export const HeaderSection = styled.section`

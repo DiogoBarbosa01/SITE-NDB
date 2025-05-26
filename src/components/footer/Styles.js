@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import LogoImg from '../../img/logo.png';
+import LogoImg from '../../img/Logo.png';
 
 export const FooterSection = styled.section`
   margin-top: 180px;
@@ -14,16 +14,16 @@ export const FooterSection = styled.section`
   }
 `;
 
-export const Logo = styled.div`
+ export const Logo = styled.div`
   background-image: url(${LogoImg});
   background-repeat: no-repeat;
   background-position: center;
-  background-color: black;
+
   width: 60px;
   height: 60px;
   margin-right: 20px;
   flex-shrink: 0;
-`;
+ `;
 
 export const TitleBox = styled.h3`
   font-size: 1.3rem;

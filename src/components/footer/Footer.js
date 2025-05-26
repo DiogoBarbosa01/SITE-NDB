@@ -11,8 +11,9 @@ export default function Footer() {
       <S.Products>
         <S.TitleBox>CONTEÚDO</S.TitleBox>
         <S.List>
-          <S.Item>ARQUÉTIPOS</S.Item>
-          <S.Item>ORÇAMENTO</S.Item>
+          <S.Item>ERGA-SE</S.Item>
+          <S.Item>QUEM SOMOS
+          </S.Item>
         </S.List>
       </S.Products>
 

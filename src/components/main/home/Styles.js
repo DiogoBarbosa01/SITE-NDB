@@ -175,3 +175,43 @@ export const TextTwo = styled.p`
     font-size: 0.8rem;
   }
 `
+
+export const CarouselContainer = styled.section`
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .swiper-pagination-bullet {
+    background-color: #fff;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #f00;
+  }
+`
+
+export const Slide = styled.div`
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+`
+
+export const Caption = styled.div`
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  max-width: 600px;
+}
+  
+`
