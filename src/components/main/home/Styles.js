@@ -3,32 +3,12 @@ import styled from 'styled-components'
 
 
 
-export const BackgroundImg = styled.div`
-  background-color: #272727;
-  width: 487px;
-  height: 457px;
-  position: relative;
-  @media(max-width: 1440px){
-    width: 430px;
-    height: 390px;
-  }
-  @media(max-width: 1080px){
-    background-color: transparent;
-  }
-  @media(max-width: 900px){
-    display: none;
-  }
-`
-
-
-
 export const CarouselContainer = styled.section`
-  width: 100vw;
-  height: 100vh;
+  width: 1500px;
+  height: 700px;
   overflow: hidden;
   margin: 0;
   padding: 0;
-
   .swiper-pagination-bullet {
     background-color: #000;
   }
@@ -40,8 +20,8 @@ export const CarouselContainer = styled.section`
 
 
 export const Slide = styled.div`
-  width: 100%;
-  height: 100vh;
+ width: 1500px;
+  height: 700px;
   position: relative;
 
   img {

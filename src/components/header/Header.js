@@ -9,10 +9,10 @@ export default function Header() {
 
   return (
     <>
-     <S.HeaderSection id="top">
+     <S.HeaderSection >
 <S.Left>
   <a href="#top">
-    <img src="/images/logo.png" alt="Logo Aspheault" style={{ width: '43px', height: '43px' }} />
+    <img src="/images/logo.png"  style={{ width: '43px', height: '43px' }} />
   </a>
   <p>ASPHAULT</p>
 </S.Left>

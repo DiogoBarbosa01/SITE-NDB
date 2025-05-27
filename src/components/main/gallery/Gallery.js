@@ -1,23 +1,31 @@
-import React from 'react'
-import * as S from './Styles'
+import React from 'react';
+import * as S from './Styles';
+import { Link } from 'react-router-dom';
 
-import HouseGallery1 from '../../../img/house-gallery1.png'
-import HouseGallery2 from '../../../img/house-gallery2.png'
-import HouseGallery3 from '../../../img/house-gallery3.png'
+const products = [
+  { name: 'Senna', slug: 'Senna' },
+  { name: 'Belived', slug: 'Belived' },
+  { name: 'luffy', slug: 'luffy' },
+ 
+];
 
-export default function Gallery(){
-
-  return(
+export default function Gallery() {
+  return (
     <S.GallerySection id="gallery">
       <S.Texts>
-        <S.TitleBox>ARQUÉTIPOS</S.TitleBox>
-        <S.TextBox>Cansado de sites comuns? Descubra designs únicos e inovadores que destacam sua marca no mundo digital. Explore nosso portfólio agora e inspire-se com modelos que transformam qualquer negócio!"</S.TextBox>
+        <S.TitleBox>COLEÇÃO ERGA-SE</S.TitleBox>
+        <S.TextBox>"O caminho para sua melhoria começa agora."</S.TextBox>
       </S.Texts>
-      <S.GalleryImg>
-        <S.ImageGallery src={HouseGallery1} alt="Foto de uma casa da galeria"/>
-        <S.ImageGallery src={HouseGallery2} alt="Foto de uma casa da galeria"/>
-        <S.ImageGallery src={HouseGallery3} alt="Foto de uma casa da galeria"/>
-      </S.GalleryImg>
+
+      <S.GalleryGrid>
+        {products.map(({ name, slug }) => (
+          <Link key={slug} to={`/produtos/${slug}`} style={{ textDecoration: 'none' }}>
+            <S.Card>
+              <S.Title>{name}</S.Title>
+            </S.Card>
+          </Link>
+        ))}
+      </S.GalleryGrid>
     </S.GallerySection>
-  )
+  );
 }

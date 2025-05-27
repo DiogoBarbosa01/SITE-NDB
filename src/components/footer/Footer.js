@@ -6,8 +6,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 export default function Footer() {
   return (
     <S.FooterSection>
-      <a href="#top"><S.Logo /></a>
-
+     
       <S.Products>
         <S.TitleBox>CONTEÚDO</S.TitleBox>
         <S.List>
