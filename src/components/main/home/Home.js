@@ -8,17 +8,17 @@ import * as S from './Styles'
 export default function Home() {
   const images = [
     {
-      src: '/images/paisagem.jpg', // imagem local
+      src: '/images/paisagem.jpg', 
       alt: 'Paisagem bonita',
       caption: 'Site moderno e responsivo para sua empresa',
     },
     {
-      src: '/images/logo.png', // imagem local
+      src: '/images/logo.png',
       alt: 'Logo da empresa',
       caption: 'Design elegante com foco em conversão',
     },
     {
-      src: '/images/site3.jpg', // imagem local
+      src: '/images/site3.jpg', 
       alt: 'Modelo de site 3',
       caption: 'Perfeito para comércios e varejo',
     },
