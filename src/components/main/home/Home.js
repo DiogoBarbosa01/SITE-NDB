@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination } from 'swiper/modules'
 import 'swiper/css'
@@ -9,17 +9,17 @@ export default function Home() {
   const images = [
     {
       src: '/images/paisagem.jpg', 
-      alt: 'Paisagem bonita',
+      alt: '',
       caption: 'Site moderno e responsivo para sua empresa',
     },
     {
       src: '/images/logo.png',
-      alt: 'Logo da empresa',
+      alt: '',
       caption: 'Design elegante com foco em conversão',
     },
     {
       src: '/images/site3.jpg', 
-      alt: 'Modelo de site 3',
+      alt: '',
       caption: 'Perfeito para comércios e varejo',
     },
   ]
